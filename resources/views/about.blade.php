@@ -4,10 +4,10 @@
 
 @section('content')
 <section class="about-header">
-    <h1>About Us</h1>
+    <h1>About us!</h1>
 </section>
 
 <section class="about-content">
-    <p>Halaman About akan segera hadir...</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, doloribus!...</p>
 </section>
 @endsection

@@ -13,7 +13,7 @@
         @foreach($bestSellers as $product)
         <div class="product-card">
             <div class="best-seller-badge">BEST SELLER</div>
-            <img src="{{ asset('images/products/' . $product->image) }}" alt="{{ $product->name }}">
+            <img src="{{ asset('images/products/matcha.png') }}" alt="Matcha Drink">
             <h3>{{ $product->name }}</h3>
             <p>{{ implode(', ', json_decode($product->ingredients)) }}</p>
             <div class="product-tags">
